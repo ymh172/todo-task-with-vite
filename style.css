@@ -1,0 +1,10 @@
+@import url("node_modules/animate.css/animate.min.css");
+@import url("node_modules/sweetalert2/dist/sweetalert2.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-confirm {
+    @apply bg-stone-500 text-slate-900 rounded-none !important;
+}
